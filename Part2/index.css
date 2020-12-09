@@ -53,3 +53,13 @@ section span:nth-of-type(3) {
   width: 100px;
   border: 1px solid #000;
 }
+
+.buttonSpanner {
+  display: flex;
+  justify-content: space-evenly
+}
+
+.buttonSpanner button{
+  margin: 0 75px 40px;;
+  width: 50px;
+}

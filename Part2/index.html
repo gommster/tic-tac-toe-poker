@@ -9,10 +9,20 @@
 <body>
   <header><h1>Poker Cards</h1></header>
     <main>
-        <section><span>A</span><span>♦</span><span>A</span></section>
-        <section><span>A</span><span>♣</span><span>A</span></section>
-        <section><span>A</span><span>♥</span><span>A</span></section>
-        <section><span>A</span><span>♠</span><span>A</span></section>
+        <section id='diamonds'><span>A</span><span>♦</span><span>A</span></section>
+        <section id='clubs'><span>A</span><span>♣</span><span>A</span></section>
+        <section id='hearts'><span>A</span><span>♥</span><span>A</span></section>
+        <section id='spades'><span>A</span><span>♠</span><span>A</span></section>
     </main>
+    <span class='buttonSpanner'>
+      <button id='diamondReset' onclick='diamondReset()'>RESET</button>
+      <button id='clubsReset' onclick='clubsReset()'>RESET</button>
+      <button id='heartsReset' onclick='heartsReset()'>RESET</button>
+      <button id='spadesReset' onclick='spadesReset()'>RESET</button>
+    </span>
+    <input id='idGrabber'>
+    <input id='styleGrabber'>
+    <button id='butId' onclick='setCard()'>Set Card</button>
 </body>
+<script src='index.js'></script>
 </html>
